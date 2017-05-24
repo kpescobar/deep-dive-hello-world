@@ -1,2 +1,2 @@
 # deep-dive-hello-world
-Repository for first bootcamp project.
+Repository for first _bootcamp_ project.
