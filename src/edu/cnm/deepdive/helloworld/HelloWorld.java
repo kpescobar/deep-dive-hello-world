@@ -1,24 +1,24 @@
 /**
  * 
  */
-package 
-edu.cnm.deepdive.helloworld;
+package edu.cnm.deepdive.helloworld;
 
 /**
- * Class that displays the text 
- * "Hello World!".
+ * Class that displays the text "Hello World!".
  */
 public class HelloWorld {
 
   /**
-   * Prints "Hello World!" to
-   standard output.
+   * Prints "Hello World!" to standard output.
    *
-   *@param args  Command-line
-   parameters (ignored).
+   * @param args Command-line parameters (ignored).
    */
   public static void main(String[] args) {
-    System.out.println("Hello World!");
+    emitMessage("Hello World!");
+  }
+
+  private static void emitMessage(String message) {
+    System.out.println(message);
   }
 
 }
