@@ -22,13 +22,13 @@ public class HelloWorld {
     }
     String message;
     message = String. format("Hello %s!", target);
-    
     emitMessage(message);
-    
     for (String arg : args) {
       System.out.printf("Argument: %s%n", arg);
      
     }
+    System.getProperties().list(System.out);
+    assert args.length >10;
   }
 
   private static void emitMessage(String message) {
